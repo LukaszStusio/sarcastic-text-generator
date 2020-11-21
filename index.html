@@ -24,11 +24,34 @@
       <p>
         Table of content:
       </p>
-      <ul>
-        <li></li>
-      </ul>
     </div>
 
+    <div class="typer">
+      <label for="sarcastic">
+        <input
+          type="radio"
+          value="sarcastic"
+          id="sarcastic"
+          name="filter"
+          checked
+        />
+        Sarcastic
+      </label>
+
+      <label for="funky">
+        <input type="radio" value="funky" id="funky" name="filter" checked />
+        Funky
+      </label>
+
+      <label for="unable">
+        <input type="radio" value="unable" id="unable" name="filter" checked />
+        Unable to structure a sentence
+      </label>
+      <textarea name="text">
+        So I was thinking about going to the store...
+      </textarea>
+      <p class="result"></p>
+    </div>
     <script src="generator.js"></script>
   </body>
 </html>
